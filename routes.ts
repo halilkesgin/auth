@@ -17,12 +17,13 @@ export const authRoutes = [
     "/auth/login",
     "/auth/register",
     "/auth/error",
-    "/auth/reset"
+    "/auth/reset",
+    "/auth/new-password"
 ]
 
 /**
  * The prefix for API authentication routes
- * Routes that start with this prefix are used for API authenticatiın puposes
+ * Routes that start with this prefix are used for API authentication purposes
  * @type {string}
  */
 export const apiAuthPrefix = "/api/auth"
